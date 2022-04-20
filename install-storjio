@@ -6,7 +6,7 @@ cd ~
 res1=$(date +%s.%N)
 
 
-STORJTOKEN=${1?Format: ./install-storjio <email:characterstring> <LIVEPATCHTOKEN(optional)>}
+STORJTOKEN=${1?Format: ./install-storjio dediminari@gmail.com 1ENS1zsc59tgp6qQxX8TTKvReGhKQbEFVU}
 LPTOKEN=${2:-nul}
 
 while [ "$1" != "" ]; do
